@@ -1,0 +1,18 @@
+.body{
+    background-color: black;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 40px;
+    justify-content: flex-end;
+    margin: 0pt;
+    padding-bottom: 5pt;
+    font-size: 14pt;
+    font-family: Jura; 
+
+}
+.navbar  {
+    background-color: darkgray;
+}

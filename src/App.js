@@ -1,11 +1,12 @@
-import Meals from './components/Meals';
+import {  BrowserRouter, Routes, Route} from 'react-router-dom';
 import './App.css';
+import Homepage from './components/Hompage';
 
 function App() {
   return (
+
     <div className="App">
-      hi joe mama ur rick rolled
-      <Meals/>
+      <Homepage/>
     </div>
   );
 }
