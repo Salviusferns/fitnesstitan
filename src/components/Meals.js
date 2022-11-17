@@ -9,13 +9,13 @@ export default function Meals(props){
                     <div>Meat</div>
                     <div> Veg</div>
                     <section className='menu-list'>
-                      <ul>
-                        <li>Salad</li>
-                        <li>Soup</li>
-                        <li>Herbs</li>
-                        <li>Fish</li>
-                        <li>Burger</li>
-                        <li>Noodle</li>
+                      <ul className='buttons'>
+                        <button class="pulse">Salad</button>
+                        <button class="pulse">Soup</button>
+                        <button class="pulse">Herbs</button>
+                        <button class="pulse">Fish</button>
+                        <button class="pulse">Burger</button>
+                        <button class="pulse">Noodle</button>
                       </ul>
                     </section>
                 </section>
@@ -24,7 +24,6 @@ export default function Meals(props){
                    <div> Exersice</div>
                 </section>
             </div>
-
         </div>
     )
 }
