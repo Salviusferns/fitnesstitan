@@ -1,0 +1,13 @@
+.Contact-us{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+.name input{
+    margin:5px 0;
+    border: none;
+    color: aquamarine;
+    
+
+}
