@@ -2,46 +2,10 @@
     background-color: black;
     font-family: "jura";
 }
-.navbar ul{
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    gap: 40px;
-    justify-content: flex-end;
-    margin: 0pt;
-    padding-bottom: 5pt;
-    padding-top: 5pt;
-    padding-right: 5pt;
-    font-size: 14pt;
-    font-family: "jura"; 
-    align-items: center;
-
-}
-
-.btn{
-    background-color: transparent;
-    border:none;
-    color: white;
-    padding: 10px 24px;
-    text-align: center;
-    font-size: 16px;
-    transition: 0.3s;
-    font-family: "jura";
-    border-radius: 2pt;
-    border: 1px solid white;
-
-  }
-  
-  .btn:hover {
-    background-color: white;
-    color: black;
-    border-radius: 5pt;
-    border: 1px solid black;
-  }
 
 
 .info .mainpic{
-    width: 1663px;
+    width: 1920px;
     height: 900px;
 }
 
@@ -73,19 +37,21 @@
     left: 310px;
     top: 430px;
     font-size: 18;
-    background-color: white;
+    background-color: transparent;
     border:none;
-    color: black;
+    color: white;
     padding: 10px 24px;
     text-align: center;
     transition: 0.1s;
     font-family: "jura";
     border-radius: 4pt;
+    border: 1px solid white;
+    font-weight: 800;
 }
 .info .btnmore:hover {
-    background-color: transparent;
-    color: white;
+    background-color: white;
+    color: black;
     border-radius: 4pt;
-    border: 1px solid white;
-    font-weight:700;
+    border: 1px solid black;
+    font-weight: 800;
   }

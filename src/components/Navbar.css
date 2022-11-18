@@ -1,0 +1,39 @@
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 40px;
+    justify-content: flex-end;
+    margin: 0pt;
+    padding-bottom: 5pt;
+    padding-top: 5pt;
+    padding-right: 5pt;
+    font-size: 14pt;
+    font-family: "jura"; 
+    align-items: center;
+
+}
+
+.btn{
+    background-color: transparent;
+    border:none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s;
+    font-family: "jura";
+    border-radius: 2pt;
+    border: 1px solid white;
+    font-weight: 800;
+
+  }
+  
+  .btn:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5pt;
+    border: 1px solid black;
+    font-weight: 800;
+  }
+
