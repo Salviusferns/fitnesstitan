@@ -5,15 +5,15 @@ export default function Homepage(props){
         <div className="body">
             <div className="navbar">
                 <ul>
-                    <li>Home</li>
-                    <li>Membership</li>
-                    <li>Contact Us</li>
-                    <li>Sign up/Login up</li>
-                    <li></li>
+                    <button className="btn">Home</button>
+                    <button className="btn">Membership</button>
+                    <button className="btn">Contact Us</button>
+                    <button className="btn">Sign up/Login up</button>
                 </ul>
             </div>
             <div className="info">
-                <img src={main} alt="Training"/>
+                <img className="mainpic" src={main} alt="Training"/>
+                <header>Go Hard Or Go Home!!</header>
             </div>
         </div>
     )

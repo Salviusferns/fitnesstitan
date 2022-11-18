@@ -1,5 +1,6 @@
 .body{
     background-color: black;
+    font-family: "jura";
 }
 .navbar ul{
     display: flex;
@@ -9,10 +10,45 @@
     justify-content: flex-end;
     margin: 0pt;
     padding-bottom: 5pt;
+    padding-top: 5pt;
+    padding-right: 5pt;
     font-size: 14pt;
-    font-family: Jura; 
+    font-family: "jura"; 
+    align-items: center;
 
 }
-.navbar  {
+
+.btn{
     background-color: darkgray;
+    border:none;
+    color: black;
+    padding: 10px 24px;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s;
+    font-family: "jura";
+  }
+  
+  .btn:hover {
+    background-color: lightgray;
+    color: black;
+    border-radius: 4pt;
+  }
+.navbar  {
+    background-color: #505150;
+}
+
+.info .mainpic{
+    width: 1663px;
+    height: 900px;
+}
+
+.info header{
+    color: white;
+    position: absolute;
+    width: 410px;
+    height: 120px;
+    left: 42px;
+    top: 210px;
+    
 }
