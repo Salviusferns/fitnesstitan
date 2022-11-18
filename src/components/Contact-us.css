@@ -1,15 +1,14 @@
 .Contact-us{
     display: flex;
     flex-direction: column;
-    background-color: #DBDADA;
     font-family:'jura';
     font-size: large;
     color: black;
-    
-    
-    
   }
 
+.details{
+  background-color: #DBDADA;
+}
 .details label{
   display: flex;
   flex-direction: column;
@@ -90,4 +89,46 @@
   font-family: "jura";
   width: 120px;
   font-size: large;
+  margin-bottom: 10px;
 }
+
+.info{
+  background-color: #505150;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  background-size: 40px;
+  
+ 
+}
+
+.info h1{
+  margin-left: 40px;
+  margin-top: 70px;
+  margin-bottom: 1px;
+}
+
+.info li{
+  
+  list-style-type: none;
+  
+}
+
+.list{
+  margin-bottom: 70px;
+}
+
+.number{
+  background-color: white;
+  color: #505150;
+  margin-left: 500px;
+  position: absolute;
+  width: 464px;
+  height: 481px;
+  margin-top: 50px;
+  
+  
+}
+
+
