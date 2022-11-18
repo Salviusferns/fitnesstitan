@@ -19,24 +19,26 @@
 }
 
 .btn{
-    background-color: darkgray;
+    background-color: transparent;
     border:none;
-    color: black;
+    color: white;
     padding: 10px 24px;
     text-align: center;
     font-size: 16px;
     transition: 0.3s;
     font-family: "jura";
+    border-radius: 2pt;
+    border: 1px solid white;
+
   }
   
   .btn:hover {
-    background-color: lightgray;
+    background-color: white;
     color: black;
-    border-radius: 4pt;
+    border-radius: 5pt;
+    border: 1px solid black;
   }
-.navbar  {
-    background-color: #505150;
-}
+
 
 .info .mainpic{
     width: 1663px;
@@ -48,7 +50,42 @@
     position: absolute;
     width: 410px;
     height: 120px;
-    left: 42px;
-    top: 210px;
-    
+    left: 190px;
+    top: 250px;
+    font-size: 24pt;
 }
+
+.info p{
+    color: white;
+    position: absolute;
+    width: 410px;
+    height: 120px;
+    left: 190px;
+    top: 300px;
+    font-size: 18;
+}
+
+.info .btnmore{
+    color: black;
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 310px;
+    top: 430px;
+    font-size: 18;
+    background-color: white;
+    border:none;
+    color: black;
+    padding: 10px 24px;
+    text-align: center;
+    transition: 0.1s;
+    font-family: "jura";
+    border-radius: 4pt;
+}
+.info .btnmore:hover {
+    background-color: transparent;
+    color: white;
+    border-radius: 4pt;
+    border: 1px solid white;
+    font-weight:700;
+  }
