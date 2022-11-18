@@ -1,13 +1,93 @@
 .Contact-us{
     display: flex;
     flex-direction: column;
+    background-color: #DBDADA;
+    font-family:'jura';
+    font-size: large;
+    color: black;
+    
+    
     
   }
 
-.name input{
-    margin:5px 0;
-    border: none;
-    color: aquamarine;
-    
+.details label{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
 
+}
+
+.name{
+  display: flex;
+  margin-left: 10px;
+  flex-direction: row;
+  gap: 10pt;
+  margin-top: 40px;
+  
+
+}
+
+.name input{
+  border: none;
+  text-align: start;
+  border-width: 30px;
+  height: 30px;
+
+}
+
+.name label{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.email{
+  display: flex;
+  margin-left: 10px;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.email input{
+  border: none;
+  text-align: start;
+  border-width: 30px;
+  height: 30px;
+  width: 355px;
+}
+
+.help{
+  display: flex;
+  margin-left: 10px;
+  flex-direction: row;
+  margin-top: 10px;
+
+}
+
+.help input{
+  border: none;
+  text-align: start;
+  border-width: 30px;
+  height: 100px;
+  width: 355px;
+
+}
+
+#btn{
+
+  padding: 3px;
+  width: 85px;
+  border-radius: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  border: none;
+  background-color: #505150;
+  color: white;
+  align-items: center;
+  font-family: "jura";
+  width: 120px;
+  font-size: large;
 }
