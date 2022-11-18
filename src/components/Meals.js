@@ -1,4 +1,5 @@
-import './Meals.css';
+import './Styles.css';
+import Draggable from 'react-draggable';
 export default function Meals(props){
     return(
         <div>
@@ -22,6 +23,14 @@ export default function Meals(props){
                 <section className='middle'>
                    <div> Calorie</div>
                    <div> Exersice</div>
+                </section>
+                <section>
+                <Draggable>
+                 <div className="box">
+                  <div>COMPONENT</div>
+                 </div>
+                </Draggable>
+
                 </section>
             </div>
         </div>
