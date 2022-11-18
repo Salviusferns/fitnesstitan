@@ -9,7 +9,7 @@ export default function Contactus(props){
                     <label>surname<input type= "text"  ></input></label>
                 </div>
                 <label className="email">email<input type= "text" ></input></label>
-                <label className="help">what can we help you with?<input type= "text"  ></input></label>
+                <label className="help">what can we help you with?<textarea type= "text"  ></textarea></label>
                 <input type="submit" id ="btn"></input>
             </form>
             <div className="number">
@@ -28,12 +28,6 @@ export default function Contactus(props){
                     <li>here is our contact details.please</li>
                     <li className="list">get in touch with us with your inquiries.</li>
                 </ul>
-            
-
-
-           
-
-            
             </div>
         </div>
     )
