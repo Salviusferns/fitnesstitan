@@ -1,5 +1,4 @@
 import "./Navbar.css"
-import Homepage from "./Hompage";
 import {Link, useMatch, useResolvedPath} from 'react-router-dom';
 export default function Navbar(props){
     return(

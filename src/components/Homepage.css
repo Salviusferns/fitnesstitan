@@ -1,6 +1,14 @@
 .body{
     background-color: black;
     font-family: "jura";
+    width: auto;
+    height: auto;
+}
+.info{
+    background-color: black;
+    font-family: "jura";
+    width: auto;
+    height: 5000px;
 }
 
 
@@ -19,7 +27,7 @@
     font-size: 24pt;
 }
 
-.info p{
+.info .p1{
     color: white;
     position: absolute;
     width: 410px;
@@ -55,3 +63,29 @@
     border: 1px solid black;
     font-weight: 800;
   }
+  .info .p2{
+    color: white;
+    position: absolute;
+    width: 800px;
+    height: 120px;
+    left: 190px;
+    top: 50em;
+    font-size: 24px;
+}
+
+.info .h1{
+    color: white;
+    position: absolute;
+    width: 410px;
+    height: 120px;
+    left: 300px;
+    top: 47em;
+}
+.info .h2{
+    color: white;
+    position: absolute;
+    width: 410px;
+    height: 120px;
+    left: 700px;
+    top: 30em;
+}
