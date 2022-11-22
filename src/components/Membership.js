@@ -1,5 +1,5 @@
 export default function Membership(props){
     return(
-        <div>hi</div>
+        <h1>hi</h1>
     )
 }
