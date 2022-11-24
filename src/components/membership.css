@@ -1,0 +1,35 @@
+.table{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    font-family: "jura";
+}
+.table .list {
+    position: absolute;
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    top: 90px;
+    gap: 40px;
+}
+
+.table .list li{
+    border: 1px solid white;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.table .list .li1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.table .list .li1 hr{
+    width: 15em;
+}
