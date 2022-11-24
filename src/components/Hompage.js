@@ -12,7 +12,7 @@ export default function Homepage(props){
                 <h2 className="h1">Why Should You Join GYM?</h2>
                 <p className="p2">Joining a gym can help you stay motivated to exercise consistently. This is a great way to build muscle, lose weight, lower blood pressure, boost mental focus, and more. Over time, you can look better, feel better, and accomplish things you never thought possible!</p>
                 <h1 className="h2">More About Us</h1>
-                <img src={girl}/>
+                <img className="girlpic" src={girl} alt="Girl Training with dumbles"/>
             </div>
             
     )

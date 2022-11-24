@@ -1,20 +1,18 @@
 .body{
     background-color: black;
     font-family: "jura";
-    width: auto;
+    width: 1200;
     height: auto;
 }
 .info{
     background-color: black;
     font-family: "jura";
-    width: auto;
     height: 5000px;
 }
 
 
 .info .mainpic{
-    width: 1920px;
-    height: 900px;
+    width: 100vw;
 }
 
 .info header{
@@ -66,9 +64,9 @@
   .info .p2{
     color: white;
     position: absolute;
-    width: 800px;
+    width: 600px;
     height: 120px;
-    left: 190px;
+    left: 700px;
     top: 50em;
     font-size: 24px;
 }
@@ -78,7 +76,7 @@
     position: absolute;
     width: 410px;
     height: 120px;
-    left: 300px;
+    left: 800px;
     top: 47em;
 }
 .info .h2{
@@ -86,6 +84,13 @@
     position: absolute;
     width: 410px;
     height: 120px;
-    left: 700px;
+    left: 500px;
     top: 30em;
+}
+
+.info .girlpic{
+    width: 500px;
+    position: absolute;
+    top: 1100px;
+    left: 70px;
 }
