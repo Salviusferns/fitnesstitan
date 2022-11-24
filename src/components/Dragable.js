@@ -1,24 +1,51 @@
 import React from 'react';
 import './Dragable.css';
-import Draggable from 'react-draggable';
-export default function Dragable(props){;
-    const [x, setX]= useState(0)
-    const [y, setY]= useState(0)
-    const handleStop = (event, dragElement) => {
-    setX(dragElement.x)
-    setY(dragElement.y)
-  };
-
+export default function Dragable(props){
+    function onDragStart(event) {
+        event
+          .dataTransfer
+          .setData('text/plain', event.target.id);
+        event
+          .currentTarget
+          .style
+          .backgroundColor = 'yellow';
+    }
+    function onDragOver(event) {
+        event.preventDefault();
+        }
+    function onDrop(event) {
+            const id = event
+              .dataTransfer
+              .getData('text');
+            const draggableElement = document.getElementById(id);
+            const dropzone = event.target;
+            dropzone.appendChild(draggableElement);
+            event
+              .dataTransfer
+              .clearData();
+          }
     return (
-        <div>
-            <section>
-                <Draggable >
-                 <div className="box">
-                  <button>COMPONENT</button>
-                 </div>
-                </Draggable>
+        <body>
+            <div class="example-parent">
+              <div class="example-origin">
+                <div
+                  id="draggable-1"
+                  class="example-draggable"
+                  draggable="true"
+                  ondragstart={(event)=>onDragStart(event)}
+                >
+                  draggable
+                </div>
+              </div>
 
-            </section>
-        </div>
+                  <div
+                class="example-dropzone"
+                ondragover={(event)=>onDragOver(event)}
+                ondrop={(event)=>onDrop(event)}
+              >
+               dropzone
+              </div>
+            </div>          
+        </body>
     )
 }
