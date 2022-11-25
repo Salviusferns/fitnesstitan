@@ -6,7 +6,7 @@ export default function Membership(props){
                 
                 <li className="li1">
                     <h2>Silver</h2>
-                    <p>£17.99/pm per person</p>
+                    <p className="price">£17.99/pm per person</p>
                     <hr></hr>
                     <p>Access to Gym</p>
                     <p>Access to Free Training Videos</p>
@@ -25,7 +25,7 @@ export default function Membership(props){
               
                 <li className="li2">
                     <h2>Gold</h2>
-                    <p>£24.99/pm per person</p>
+                    <p className="price">£24.99/pm per person</p>
                     <hr></hr>
                     <p>Access to Gym</p>
                     <p>Access to Free Training Videos</p>
@@ -44,7 +44,7 @@ export default function Membership(props){
 
                 <li className="li3">
                     <h2>Platnuim</h2>
-                    <p>£35.99/pm per person</p>
+                    <p className="price">£35.99/pm per person</p>
                     <hr></hr>
                     <p>Access to Gym</p>
                     <p>Access to Free Training Videos</p>

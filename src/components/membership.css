@@ -1,27 +1,48 @@
 .table{
-    width: 98.5vw;
+    width: 99vw;
     height: 100vh;
     background-color: black;
     font-family: "jura";
 }
 .table .list {
-    position: absolute;
+    background-image: url("/public/Images/new.gif");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    padding-top: 70pt;
     list-style: none;
     color: white;
     display: flex;
     flex-direction: row;
-    padding-top: 50px;
-    padding-left: 120px;
+    justify-content: center;
     gap: 40px;
+    margin: 0   ;
 }
-
+.table .list .li1 h2{
+    color: silver;  
+}
+.table .list .li2 h2{
+    color: gold;  
+}
+.table .list .li3 h2{
+    color: #59dbff;  
+}
+.table .list li .price{
+    color: white;
+    font-size: 18px;
+}
 .table .list li{
     border: 1px solid white;
     width: auto;
     display: flex;
     flex-direction: row;
 }
-
+.table .list p{
+    color: #47fc68;
+}
+.table .list p s{
+    color: #ff4747;
+}
 .table .list .li1{
     color: white;
     display: flex;
@@ -29,6 +50,7 @@
     align-items:flex-start;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 20px;
     
 }
 .table .list .li1 hr{
