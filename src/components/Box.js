@@ -35,6 +35,7 @@ export default function Box({ card, moveCard }) {
         onDragLeave={handleDragLeave}
       >
         {card ? <Card/> : "Box"}
+        
       </div>
     );
   }

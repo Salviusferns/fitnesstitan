@@ -38,8 +38,8 @@
   
   .List{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 20px;
     margin-left: 50px;
-    gap: 25px;
+    gap: 500px;
   }
