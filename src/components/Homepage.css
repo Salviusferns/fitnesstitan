@@ -10,7 +10,6 @@
     height: 5000px;
 }
 
-
 .info .imgtxt{
     width: 98vw;
     height: 100vh;
@@ -82,3 +81,13 @@
   .info .aboutus{
     color: white;
   }
+
+  .info a{
+    color: lightblue;
+    text-decoration: none;
+  }
+.info  a:hover{
+    background-color: black;
+    color: white ;
+    font-weight: 800;
+}

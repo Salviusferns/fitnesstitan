@@ -1,5 +1,5 @@
 .table{
-    width: 100vw;
+    width: 98.5vw;
     height: 100vh;
     background-color: black;
     font-family: "jura";
@@ -10,7 +10,8 @@
     color: white;
     display: flex;
     flex-direction: row;
-    padding-top: 150px;
+    padding-top: 50px;
+    padding-left: 120px;
     gap: 40px;
 }
 
@@ -44,4 +45,19 @@
     padding-left: 20px;
     padding-right: 20px;
     
+}
+.table .list .li2 hr{
+    width: 15em;
+}
+.table .list .li3{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.table .list .li3 hr{
+    width: 15em;
 }
