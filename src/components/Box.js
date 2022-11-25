@@ -29,7 +29,7 @@ export default function Box({ card, moveCard }) {
     return (
       <div
         className="gym"
-        style={{ backgroundColor: isOver ? "#bbf" : "rgba(0,0,0,.12)" }}
+        style={{ backgroundColor: isOver ? "" : "rgba(0,0,0,.12)" }}
         onDragOver={handleDragOver}
         onDrop={handleDrop}
         onDragLeave={handleDragLeave}

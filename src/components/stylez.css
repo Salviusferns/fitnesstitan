@@ -7,13 +7,12 @@
   }
   
   .gym {
-    box-sizing: border-box;
-    width: 298px;
-    height: 78px;
-    left: 942px;
-    top: 497px;
+    width: 530px;
+    height: 104px;
+    left: 232px;
+    top: 504px;
     background: #FFFEFE;
-    border: 1px dashed #000000;
+    border: 1px dashed #8b8b8b;
     border-radius: 25px;
     display: flex;
     justify-content: center;
@@ -34,6 +33,13 @@
     color: black;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-
+    
   }
   
+  .List{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-left: 50px;
+    gap: 25px;
+  }
