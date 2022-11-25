@@ -11,8 +11,14 @@
 }
 
 
-.info .mainpic{
+.info .imgtxt{
     width: 98vw;
+    height: 100vh;
+    background-image: url("/public/Images/main.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
 
 .info header{
@@ -61,36 +67,18 @@
     border: 1px solid black;
     font-weight: 800;
   }
-  .info .p2{
+  .info .imgtxt-2{
+    width: 30vw;
+    height: 30vh;
+    background-image: url("/public/Images/girl.avif");
+    background-size:cover;
+    background-repeat: no-repeat;
     color: white;
-    position: absolute;
-    width: 600px;
-    height: 120px;
-    left: 700px;
-    top: 50em;
-    font-size: 24px;
-}
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+  }
 
-.info .h1{
+  .info .aboutus{
     color: white;
-    position: absolute;
-    width: 410px;
-    height: 120px;
-    left: 800px;
-    top: 47em;
-}
-.info .h2{
-    color: white;
-    position: absolute;
-    width: 410px;
-    height: 120px;
-    left: 500px;
-    top: 30em;
-}
-
-.info .girlpic{
-    width: 500px;
-    position: absolute;
-    top: 1100px;
-    left: 70px;
-}
+  }
