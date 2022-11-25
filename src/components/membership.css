@@ -10,7 +10,7 @@
     color: white;
     display: flex;
     flex-direction: row;
-    top: 90px;
+    padding-top: 150px;
     gap: 40px;
 }
 
@@ -32,4 +32,16 @@
 }
 .table .list .li1 hr{
     width: 15em;
+}
+.table .list .btn-select{
+    color:aqua
+}
+.table .list .li2{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding-left: 20px;
+    padding-right: 20px;
+    
 }
