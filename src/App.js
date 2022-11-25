@@ -10,6 +10,7 @@ function App() {
   function moveCard(i) {
     setIndex(i);
   }
+  
 
   return (
         <div>
@@ -21,7 +22,7 @@ function App() {
                 <Box card={index === 2} moveCard={moveCard.bind(null, 2)}></Box>
           </div>
           <div className='List'>
-           <Card box={index === 3} moveBox={moveCard.bind(null, 3)}></Card>
+           <Box card={index === 3} moveCard={moveCard.bind(null, 3)}></Box>
            <Box card={index === 4} moveCard={moveCard.bind(null, 4)}></Box>
           </div>
         </div>

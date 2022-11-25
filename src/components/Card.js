@@ -17,16 +17,30 @@ export default function Card() {
   }
 
   return (
-    <div
-      className="card"
-      style={{
-        backgroundColor: isDragging ? "#FFFFFF" : "white"
-      }}
-      draggable
-      onDragStart={handleDragStart}
-      onDragEnd={handleDragEnd}
-    >
-      Card
+    <div>
+        <div
+          className="card"
+          style={{
+            backgroundColor: isDragging ? "#FFFFFF" : "white"
+          }}
+          draggable
+          onDragStart={handleDragStart}
+          onDragEnd={handleDragEnd}
+        >
+          Card1
+        </div>
+        <div
+          className="card"
+          style={{
+            backgroundColor: isDragging ? "#FFFFFF" : "white"
+          }}
+          draggable
+          onDragStart={handleDragStart}
+          onDragEnd={handleDragEnd}
+        >
+          Card2
+        </div>
     </div>
+    
   );
 }
