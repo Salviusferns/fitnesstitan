@@ -4,6 +4,7 @@
     background-color: black;
     font-family: "jura";
 }
+
 .table .list {
     background-image: url("/public/Images/working\ out.jpg");
     background-repeat: no-repeat;
@@ -20,32 +21,37 @@
     margin: 0;
     padding-bottom: 200px;
 }
+
 .table .list .li1 h2{
     color: silver;  
 }
-.table .list .li2 h2{
+
+.table .list .li1 .gold{
     color: gold;  
 }
-.table .list .li3 h2{
+
+.table .list .li1 .plat{
     color: #59dbff;  
 }
-.table .list li .price{
+
+.list p{
+    color: #47fc68;
+
+}
+
+.list .red{
+    color: #ff0000;
+    font-weight: 900;
+}
+
+li .price{
     color: white;
     font-size: 18px;
 }
-.table .list li{
-    border: 1px solid white;
+
+.li1{
     width: auto;
-    display: flex;
-    flex-direction: row;
-}
-.table .list p{
-    color: #47fc68;
-}
-.table .list p s{
-    color: #ff4747;
-}
-.table .list .li1{
+    border: 1px solid white;
     color: white;
     display: flex;
     flex-direction: column;
@@ -53,44 +59,16 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.253);
+    backdrop-filter: blur(4px);
 }
-.table .list .li1:hover{
-background-color: rgb(134, 134, 134);
-transition: 0.5s;
-border: 1px solid black;
-border-radius: 2em;
-}
-.table .list .li1 .price:hover{
-    color: black;
-}
-.table .list .li1 hr{
-    width: 15em;
 
+.li1 hr{
+    width: 15em;
 }
-.table .list .btn-select{
+
+.btn-select{
     color:aqua
 }
-.table .list .li2{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    padding-left: 20px;
-    padding-right: 20px;
-    
-}
-.table .list .li2 hr{
-    width: 15em;
-}
-.table .list .li3{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    padding-left: 20px;
-    padding-right: 20px;
-    
-}
-.table .list .li3 hr{
-    width: 15em;
-}
+
+

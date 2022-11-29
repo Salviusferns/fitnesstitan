@@ -11,11 +11,11 @@ export default function Membership(props){
                     <p>Access to Gym</p>
                     <p>Access to Free Training Videos</p>
                     <p>Free Gym Classes</p>
-                    <p><s> Bring A Friend</s></p>
-                    <p><s>Access to Meal Planing</s></p>
-                    <p><s>Access to Personalised Videos</s></p>
-                    <p><s>Fitness/body composition tracking</s></p>
-                    <p><s>Access to All National-Wide Gyms</s></p>
+                    <p className="red">Bring A Friend</p>
+                    <p className="red">Access to Meal Planing</p>
+                    <p className="red">Access to Personalised Videos</p>
+                    <p className="red">Fitness/body composition tracking</p>
+                    <p className="red">Access to All National-Wide Gyms</p>
                     <div className="btn-select">
                         <a href="/Homepage">
                             <li>Select</li>
@@ -23,18 +23,18 @@ export default function Membership(props){
                     </div>
                 </li>
               
-                <li className="li2">
-                    <h2>Gold</h2>
+                <li className="li1 gold">
+                    <h2 className="gold">Gold</h2>
                     <p className="price">£24.99/pm per person</p>
                     <hr></hr>
                     <p>Access to Gym</p>
                     <p>Access to Free Training Videos</p>
                     <p>Free Gym Classes</p>
                     <p> Bring A Friend</p>
-                    <p><s>Access to Meal Planing</s></p>
-                    <p><s>Access to Personalised Videos</s></p>
-                    <p><s>Fitness/body composition tracking</s></p>
-                    <p><s>Access to All National-Wide Gyms</s></p>
+                    <p className="red">Access to Meal Planing</p>
+                    <p className="red">Access to Personalised Videos</p>
+                    <p className="red">Fitness/body composition tracking</p>
+                    <p className="red">Access to All National-Wide Gyms</p>
                     <div className="btn-select">
                         <a href="/Homepage">
                             <li>Select</li>
@@ -42,8 +42,8 @@ export default function Membership(props){
                     </div>
                 </li>
 
-                <li className="li3">
-                    <h2>Platnuim</h2>
+                <li className="li1 platinum">
+                    <h2 className="plat">Platnuim</h2>
                     <p className="price">£35.99/pm per person</p>
                     <hr></hr>
                     <p>Access to Gym</p>
