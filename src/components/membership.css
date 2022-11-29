@@ -9,7 +9,7 @@
     background-image: url("/public/Images/working\ out.jpg");
     background-repeat: no-repeat;
     background-size:cover;
-    width: 97vw;
+    width: 96vw;
     padding-top: 250px;
     list-style: none;
     color: white;
@@ -35,12 +35,13 @@
 }
 
 .list p{
-    color: #47fc68;
+    color: #1fff48;
 
 }
 
 .list .red{
-    color: #ff0000;
+    color: #ff5144ee;
+    font-size: 16px;
     font-weight: 900;
 }
 
@@ -48,7 +49,23 @@ li .price{
     color: white;
     font-size: 18px;
 }
+.btn-select button{
+    background-color: transparent;
+    color: whitesmoke;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-weight: 300;
+    border-radius: 12px;
+}
 
+.btn-select button:hover{
+    background-color: rgb(133, 133, 133);
+    color: black;
+    font-weight: 300;
+    transition: 0.3s;
+}
 .li1{
     width: auto;
     border: 1px solid white;
@@ -59,16 +76,14 @@ li .price{
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.548);
     backdrop-filter: blur(4px);
+    border-radius: 20px;
 }
 
 .li1 hr{
     width: 15em;
 }
 
-.btn-select{
-    color:aqua
-}
 
 

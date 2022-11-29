@@ -17,9 +17,7 @@ export default function Membership(props){
                     <p className="red">Fitness/body composition tracking</p>
                     <p className="red">Access to All National-Wide Gyms</p>
                     <div className="btn-select">
-                        <a href="/Homepage">
-                            <li>Select</li>
-                        </a>
+                    <button>Select</button>
                     </div>
                 </li>
               
@@ -36,9 +34,7 @@ export default function Membership(props){
                     <p className="red">Fitness/body composition tracking</p>
                     <p className="red">Access to All National-Wide Gyms</p>
                     <div className="btn-select">
-                        <a href="/Homepage">
-                            <li>Select</li>
-                        </a>
+                        <button>Select</button>
                     </div>
                 </li>
 
@@ -55,9 +51,7 @@ export default function Membership(props){
                     <p>Fitness/body composition tracking</p>
                     <p>Access to All National-Wide Gyms</p>
                     <div className="btn-select">
-                        <a href="/Homepage">
-                            <li>Select</li>
-                        </a>
+                        <button>Select</button>
                     </div>
                 </li>
             </ul>
