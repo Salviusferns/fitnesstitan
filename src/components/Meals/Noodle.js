@@ -1,5 +1,6 @@
+import "./List.css"
 export default function Noodles(props){
     return(
-        <div></div>
+        <div>hi</div>
     )
 }
