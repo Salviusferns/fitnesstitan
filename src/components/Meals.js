@@ -10,8 +10,8 @@ export default function Meals(props){
                     <div> Veg</div>
                     <section className='menu-list'>
                       <ul className='buttons'>
-                        <button class="pulse">Salad</button>
-                        <button class="pulse">Soup</button>
+                        <li class="pulse">Salad</li>
+                        <li class="pulse">Soup</li>
                         <button class="pulse">Herbs</button>
                         <button class="pulse">Fish</button>
                         <button class="pulse">Burger</button>
