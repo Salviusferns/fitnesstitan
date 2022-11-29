@@ -2,7 +2,7 @@ import './App.css';
 import Homepage from './components/Hompage';
 import Membership from './components/Membership';
 import Navbar from './components/Navbar';
-import Meals from './components/Meals';
+import Meals from './components/Meals/Meals';
 import ContactUs from './components/Contactus';
 import { Route, Routes } from 'react-router-dom';
 
