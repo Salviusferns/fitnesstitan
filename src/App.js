@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import MealList from "./components/MealList";
 import Meals from './components/Meals';
-import "./components/stylez.css"
 import './App.css';
 
 function App() {
