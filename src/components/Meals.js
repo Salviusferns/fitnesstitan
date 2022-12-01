@@ -1,21 +1,21 @@
 import './Styles.css';
+import Salad from './Salad';
+import { useNavigate } from 'react-router-dom';
 export default function Meals(props){
+    const navigate = useNavigate();
     return(
         <div>
             <div className='top'>
                 <section>
                     <h1>What's Healthy Today</h1>
-                
-                    <div>Meat</div>
-                    <div> Veg</div>
                     <section className='menu-list'>
                       <ul className='buttons'>
-                        <li class="pulse">Salad</li>
-                        <li class="pulse">Soup</li>
-                        <button class="pulse">Herbs</button>
-                        <button class="pulse">Fish</button>
-                        <button class="pulse">Burger</button>
-                        <button class="pulse">Noodle</button>
+                        <button onClick={() => {navigate("/salad")}} class="pulse">Salad</button>
+                        <button onClick={() => {navigate("/")}} class="pulse">Soup</button>
+                        <button onClick={() => {navigate("/")}} class="pulse">Herbs</button>
+                        <button onClick={() => {navigate("/")}} class="pulse">Fish</button>
+                        <button onClick={() => {navigate("/")}} class="pulse">Burger</button>
+                        <button onClick={() => {navigate("/")}} class="pulse">Noodle</button>
                       </ul>
                     </section>
                 </section>
