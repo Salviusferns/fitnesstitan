@@ -77,3 +77,58 @@
     color: white ;
     font-weight: 800;
 }
+.morepage{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+
+}
+.galery1{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    
+
+}
+.morepage-1{
+
+    background-image: url("/public/Images/equipements.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 675px;
+    height: 470px;
+    
+}
+
+.morepage-2{
+    background-image: url("/public/Images/using.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 675px;
+    height: 470px;
+}
+.morepage-1 .text{
+    width: 450px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(1px);
+    padding-top: 0.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 100px;
+    border: 0.5px solid black;
+    border-radius: 15px;
+
+}
+
+.morepage-2 .text{
+    width: 675px;
+    height: 470px;
+    background-color: rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(1px);
+    padding-top: 0.5px;
+}

@@ -1,5 +1,9 @@
 import "./membership.css"
+import { useNavigate } from "react-router-dom";
+
 export default function Membership(props){
+    const navigate = useNavigate();
+
     return(
         <div className="table">
             <ul className="list">
@@ -17,7 +21,7 @@ export default function Membership(props){
                     <p className="red">Fitness/body composition tracking</p>
                     <p className="red">Access to All National-Wide Gyms</p>
                     <div className="btn-select">
-                    <button>Select</button>
+                    <button onClick={() => {navigate("/")}}>Select</button>
                     </div>
                 </li>
               
