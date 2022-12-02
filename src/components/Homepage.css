@@ -1,13 +1,13 @@
 .body{
     background-color: black;
     font-family: "jura";
-    width: 1200;
+    width: 800;
     height: auto;
 }
 .info{
     background-color: black;
     font-family: "jura";
-    height: 5000px;
+    height: 2500px;
 }
 .info .imgtxt{
     width: 98vw;
