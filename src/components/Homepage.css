@@ -117,13 +117,14 @@
     padding-top: 0.5px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:flex-start;
+    align-items: center;
     margin-top: 40px;
     margin-left: 100px;
     border: 0.5px solid black;
     border-radius: 15px;
-
 }
+
 
 .morepage-2 .text{
     width: 675px;
@@ -131,4 +132,36 @@
     background-color: rgba(0, 0, 0, 0.37);
     backdrop-filter: blur(1px);
     padding-top: 0.5px;
+}
+
+.morepage ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.morepage ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.morepage button{
+    color: white;
+    width: 47px;
+    height: 27px;
+    margin-left: 20px;
+    background-color: black;
+    border-radius: 6px;
+    border: 0.5px solid white;
+    transition: 0.3s;
+}
+.morepage button:hover{
+    color: black;
+    border-radius: 9px;
+    background-color: white;
+ 
 }
