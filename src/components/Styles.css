@@ -13,15 +13,6 @@
   line-height: 24px;
 }
 
-.middle div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
 
 .menu-list ul {
   display: -webkit-box;
@@ -34,10 +25,10 @@
   gap: 20px;
 }
 
-.ding button {
+.menu-list button {
   align-items: center;
   height: 104px;
-  width: 72px;
+  width: 600px;
   left: 240px;
   top: 304px;
   background-color: #505150;

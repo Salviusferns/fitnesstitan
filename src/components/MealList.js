@@ -22,7 +22,7 @@ export default function MealList({ mealData, handleDragStart}) {
             key={meal.id}
             meal={meal}
             handleDragStart={handleDragStart}
-          />;
+            />
         })}
       </section>
     </main>
