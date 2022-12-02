@@ -1,5 +1,5 @@
 import "./Popups1.css"
-export default function Popups2(props){
+export default function Popups8(props){
     return(props.trigger) ? (
         <div className="popup">
             <div className="popup-inner">

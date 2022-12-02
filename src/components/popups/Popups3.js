@@ -1,4 +1,4 @@
-import "./Popups3.css"
+import "./Popups1.css"
 export default function Popups3(props){
     return(props.trigger) ? (
         <div className="popup">

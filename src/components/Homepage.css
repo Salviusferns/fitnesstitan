@@ -177,10 +177,21 @@
     color: black;
     border-radius: 9px;
     background-color: white;
+    border: 1px solid black;
  
 }
 
 .popup-text h3{
     color: red;
+}
+.More .keep{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 50vw;
+    margin-left:25vw ;
 }
 
