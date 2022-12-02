@@ -97,8 +97,12 @@
     background-image: url("/public/Images/equipements.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 675px;
-    height: 470px;
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -106,8 +110,12 @@
     background-image: url("/public/Images/using.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 675px;
-    height: 470px;
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .morepage-1 .text{
     width: 450px;
@@ -119,19 +127,24 @@
     flex-direction: column;
     justify-content:flex-start;
     align-items: center;
-    margin-top: 40px;
-    margin-left: 100px;
     border: 0.5px solid black;
     border-radius: 15px;
+
 }
 
 
 .morepage-2 .text{
-    width: 675px;
-    height: 470px;
-    background-color: rgba(0, 0, 0, 0.37);
+    width: 450px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.363);
     backdrop-filter: blur(1px);
     padding-top: 0.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    border: 0.5px solid black;
+    border-radius: 15px;
 }
 
 .morepage ul {
@@ -149,6 +162,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .morepage button{
     color: white;
     width: 47px;
@@ -165,3 +179,8 @@
     background-color: white;
  
 }
+
+.popup-text h3{
+    color: red;
+}
+

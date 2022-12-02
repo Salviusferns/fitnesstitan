@@ -2,10 +2,9 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 450px;
+    height: 350px;;
     background-color: rgba(0, 0, 0, 0.034);
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,10 +12,11 @@
 
 .popup-inner{
     position: relative;
-    padding: 32px;
+    padding: 120px;
     width: 100%;
     max-width: 640px;
-    background-color: white;
+    background-color: black;
+    border-radius: 20px;
 }
 
 .popup-inner .close-btn{

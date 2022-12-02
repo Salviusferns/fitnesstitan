@@ -1,5 +1,5 @@
-import "./Popups.css"
-export default function Popups(props){
+import "./Popups1.css"
+export default function Popups1(props){
     return(props.trigger) ? (
         <div className="popup">
             <div className="popup-inner">
