@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-export default function Meal({ meal }) {
+export default function Meal({ meal, handleDragStart }) {
   const [imageUrl, setImageUrl] = useState("");
 
   useEffect(() => {
@@ -17,9 +17,12 @@ export default function Meal({ meal }) {
   }, [meal.id]);
 
   return (
-    <article>
+    <article 
+      draggable
+      onDragStart={()=>handleDragStart(meal)}
+    >
       <h1>{meal.title}</h1>
-      <img src={imageUrl} alt="recipe" />
+      <img src={imageUrl} alt="recipe" draggable={false}/>
       <ul className="instructions">
         <li>Preparation time: {meal.readyInMinutes} minutes</li>
         <li>Number of servings: {meal.servings}</li>

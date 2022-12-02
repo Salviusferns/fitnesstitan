@@ -6,6 +6,7 @@ import './App.css';
 function App() {
   const [mealData, setMealData] = useState(null);
   const [calories, setCalories] = useState(2000);
+  const [selectedMeal, setselectedMeal] = useState({});
 
   function getMealData() {
     fetch(
@@ -22,12 +23,17 @@ function App() {
   function handleChange(e) {
     setCalories(e.target.value);
   }
+
+  const handleDragStart=(selectedMeal)=> {
+    setselectedMeal(selectedMeal)
+  }
+  
   return (
-        <div>
-            <div className="App">
-              <Meals/>
-            </div>
-            <section className="controls">
+    <div>
+      <div className="App">
+        <Meals/>
+      </div>
+      <section className="controls">
         <input
           type="number"
           placeholder="Calories (e.g. 2000)"
@@ -35,10 +41,9 @@ function App() {
         />
         <button onClick={getMealData}>Get Daily Meal Plan</button>
       </section>
-      {mealData && <MealList mealData={mealData} />}
-          
-        </div>
-        );
-      }
+      {mealData && <MealList mealData={mealData} handleDragStart={handleDragStart} />}    
+    </div>
+  );
+}
 
 export default App;

@@ -34,7 +34,8 @@
   gap: 20px;
 }
 
-.menu-list button {
+.ding button {
+  align-items: center;
   height: 104px;
   width: 72px;
   left: 240px;
