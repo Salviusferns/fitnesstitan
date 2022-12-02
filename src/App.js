@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import MealList from "./components/MealList";
 import Meals from './components/Meals';
 import './App.css';
+import "./index.css"
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
 
   
   return (
-    <div>
+    <div className="All">
       <div className="App">
         <Meals/>
       </div>
