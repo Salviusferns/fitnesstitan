@@ -3,10 +3,10 @@ import MealList from "./components/MealList";
 import Meals from './components/Meals';
 import './App.css';
 
+
 function App() {
   const [mealData, setMealData] = useState(null);
   const [calories, setCalories] = useState(2000);
-  const [selectedMeal, setselectedMeal] = useState({});
 
   function getMealData() {
     fetch(
@@ -24,9 +24,6 @@ function App() {
     setCalories(e.target.value);
   }
 
-  const handleDragStart=(selectedMeal)=> {
-    setselectedMeal(selectedMeal)
-  }
   
   return (
     <div>
@@ -41,7 +38,7 @@ function App() {
         />
         <button onClick={getMealData}>Get Daily Meal Plan</button>
       </section>
-      {mealData && <MealList mealData={mealData} handleDragStart={handleDragStart} />}    
+      {mealData && <MealList mealData={mealData}  />}    
     </div>
   );
 }
