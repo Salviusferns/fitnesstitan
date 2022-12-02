@@ -120,6 +120,7 @@ According to the Mayo Clinic, warming up and cooling down may help reduce your r
 
 According to the American Cancer Society, two to three strength-based workouts each week can result in significant health benefits, such as increased muscle mass, stronger bones, boosted metabolism, better posture, balance and joint flexibility. Research shows it also can boost heart health and have a positive impact on your mental health.</h3>
                                         <h1>Should I lift weights for strength training? </h1>
+                                        <h3>Resistance training is how you increase your muscle mass, strength and overall health, but how you do it is up to you! Many women enjoy weight training with gym machines or free weights such as dumbbells, kettlebells or a barbell, while others prefer bodyweight workouts. </h3>
                                     </div>
                                 </div>
                         </div> 
